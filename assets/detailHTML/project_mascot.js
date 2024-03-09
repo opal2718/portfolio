@@ -58,7 +58,6 @@ const showCards = () => {
                   overflow: auto;
                   text-overflow: ellipsis;
                   margin-bottom: 4rem;
-                  scrollbar-width: none;
                   font-family: 'noEllipsis','HangulLighter';
                 ">${description}</p>
                 <p style="font-size: 15px;position: absolute; bottom:0px;"><a href="${tagimg}" style=" color:white; text-decoration:none" target="_blank" title="출처">${minorities}</a></p>
