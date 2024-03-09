@@ -207,6 +207,13 @@ a:hover {
   background: rgba(0, 0, 0, 0.55);
 }
 
+.card .title-div {
+  width: 100%;
+  height: 35%;
+  margin: 0;
+  font-family: 'noEllipsis','HangulLighter';
+}
+
 @media (min-width: 60rem) {
   .card .data {
     height: 76%;
@@ -222,21 +229,19 @@ a:hover {
 @font-face {
   font-family: 'HangulBase';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+}
+@font-face {
+	font-family:'noEllipsis';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2') format('woff2');
+  font-weight: bold;
+  unicode-range: U+2026;
+  size-adjust: 0%;
 }
 @font-face {
   font-family: 'HangulLighter';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-}
-
-.card .title-div {
-  width: 100%;
-  height: 35%;
-  margin: 0;
-  font-family: 'HangulLighter';
 }
 
 .card .title {

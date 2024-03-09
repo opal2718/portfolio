@@ -143,12 +143,42 @@
     <!-- Fetching our Google Tag Manager -->
 
     <!--JavaScript at end of body for optimized loading-->
-    <script src="assets/js/app.js"></script>
     <script src="assets/js/cursor.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
     <script src="assets/js/particle.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        function sleep(sec) {
+            return new Promise(resolve => setTimeout(resolve, sec * 1000));
+        } // 함수정의
+        (async()=>{
+            while(document.querySelector("#foorm") == null){
+                await sleep(0.001);
+            }
+            
+            alert(document.querySelector("#foorm"));
+document.querySelector("#foorm").addEventListener("submit", e=> {
+  alert("a");
+  e.preventDefault();
+      alert(document.querySelector("#data").value);
+  $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec",
+      data: {"data": document.querySelector("#data").value},
+      type: "POST",
+      dataType: "xml",
+      success: function(data) {
+          console.log('Submission successful');
+      },
+      error: function(xhr, status, error) {
+          console.log('Submission failed: ' + error);
+      }
+  });
+      document.querySelector("#foorm").reset();
+});
+        })();
+    </script>
 
 </body>
 

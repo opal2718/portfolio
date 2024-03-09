@@ -7,6 +7,25 @@ script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 localStorage.setItem("lightMode", "light")
 
+
+/*
+alert("B");
+document.querySelector("lnch").addEventListener("submit", e=> {
+  alert("a");
+  e.preventDefault();
+  $.ajax({
+      url: "url to google form responses",
+      data: $(this).serialize(),
+      type: "POST",
+      dataType: "xml",
+      success: function(data) {
+          console.log('Submission successful');
+      },
+      error: function(xhr, status, error) {
+          console.log('Submission failed: ' + error);
+      }
+  });
+});*/
 // Header
 
 let header = $(`
@@ -109,6 +128,8 @@ let header = $(`
 </div>
 </nav>`);
 
+//};
+
 // Footer
 let footer = $(`
 <footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
@@ -138,7 +159,7 @@ let footer = $(`
              <div class="form-header" style="height:100%; margin-bottom:10%">
               <h6 class="display">Get in Touch</h6>
               </div>
-                <form style="height:90%" name="form1" action="https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec" method="POST" accept-charset="UTF-8" >             
+                <form id="foorm" style="height:90%" name="form1" action="https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec" method="POST" accept-charset="UTF-8" >             
                   <textarea style="font-family: "HangulLight";" class="formArea" onInput="this.parentNode.dataset.replicatedValue = this.value" id="data" name="data" placeholder="이곳에 입력 후 Send Button을 클릭하면 전송이 완료됩니다.\n(시각 효과 없을 수 있음)" required style="resize:none"></textarea>
               
                   <div id="main">
@@ -341,25 +362,12 @@ $(window).on("load", function () {
 
 
 $(function submitAnimation() {
-  const name = document.querySelector("#name")
-  const emailAdress = document.querySelector("#email")
   const text = document.querySelector("#textArea")
   const emailPattern = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
   $("#lnch").on("click", function () {
 
-    // Check if the name field is empty or contains a number
-    if (name.value == "" || (/\d/.test(name.value))) {
-      swal("Error !","Please enter a valid name !","error");
-      return;
-    }
-    // Check if the email field is empty or email is not valid ex: test@@email.com
-    else if (emailAdress.value == "" || !(emailPattern.test(emailAdress.value))) {
-      swal("Error !","Please enter a valid email !","error");
-      return;
-    }
-    // Check if the message field is empty
-    else if (text.value == "") {
+    if (text.value == "") {
       swal("Error !","Please enter a valid message !","error");
       return;
     }
