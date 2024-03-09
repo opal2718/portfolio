@@ -158,11 +158,8 @@
                 await sleep(0.001);
             }
             
-            alert(document.querySelector("#foorm"));
 document.querySelector("#foorm").addEventListener("submit", e=> {
-  alert("a");
   e.preventDefault();
-      alert(document.querySelector("#data").value);
   $.ajax({
       url: "https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec",
       data: {"data": document.querySelector("#data").value},
@@ -170,9 +167,11 @@ document.querySelector("#foorm").addEventListener("submit", e=> {
       dataType: "xml",
       success: function(data) {
           console.log('Submission successful');
+          alert("전송 완료");
       },
       error: function(xhr, status, error) {
           console.log('Submission failed: ' + error);
+          alert("다시 시도해주세요.");
       }
   });
       document.querySelector("#foorm").reset();
