@@ -6,10 +6,10 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "건의함 탭 개설",
+    title: "온라인 건의함 개설",
     cardImage: "../../assets/images/project-page/suggestionBox.jpg",
     description: "\
-    우리 학교 학생들은 학교에 원하는 바를 건의할 수단을 접하기가 어려운 것 같습니다. 제가 전교 부회장으로 당선된다면 학교 홈페이지에 건의함 탭을 만들어 학생의 의견을 듣겠습니다.",
+    학생들이 학교 운영에 대해 보다 직접적인 목소리를 낼 수 있도록, 익명성이 보장된 온라인 건의함을 개설하도록 하겠습니다.",
     tagimg: "https://www.phob.co.kr/goods/view.php?goodsno=18068654",
     minorities: "©라이프스토리 포비",
     Previewlink: "",
@@ -19,7 +19,7 @@ const projects = [
     title: "학생 전체 회의 개최",
     cardImage: "../../assets/images/project-page/uncouncil.jpg",
     description: "\
-    일 년에 한두 번 정도는 전교생 중 원하는 사람은 누구든 참여할 수 있는 회의를 개최하여 선생님들께 직접 개선점에 대해 문의하고 피드백을 받을 수 있는 회의를 개최하기 위해 노력하겠습니다.",
+    일년에 한두 번, 학생자치회와 각 학급의 임원들 뿐 아니라 참가를 희망하는 학생들이 자유롭게 참여할 수 있는 회의의 장을 만들겠습니다. 이곳에서 선생님들과 학생들이 자유롭고 효율적으로 의견을 모으고 서로의 목소리에 귀를 기울일 수 있을 것입니다.",
     tagimg: "https://betterworldcampaign.org/blog/un-security-council-veto",
     minorities: "©Better World Campaign",
     Previewlink: "",

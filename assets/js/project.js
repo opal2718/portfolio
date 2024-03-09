@@ -9,7 +9,7 @@ const projects = [
     title: "학교 마스코트 제작",
     cardImage: "assets/images/project-page/doublemug3.jpg",
     description: 
-      "우리 학교의 마스코트가 없다는 것이 아쉽지 않나요? 우리만의 귀여운 마스코트가 만들어진다면 너무 밋밋하고 단조로운 PPT에도 부담 없이 넣을 수 있고, 굿즈도 만들어서 갖고 다닐 수 있는데 말이에요.",
+      "우리 학교의 마스코트가 없다는 것이 아쉽지 않나요? 우리만의 귀여운 마스코트가 만들어진다면 과제로 제출할 PPT에 넣어 꾸밀 수도 있고, 굿즈도 만들어서 갖고 다니면서 학교를 더욱 사랑하고 널리 홍보할 수 있을 것입니다.",
     minorities: "©KAIST Brand Shop",
     tagimg: "https://brandkaist.com/product/nubzuki-doublemug/",
     Previewlink: "assets/detailHTML/project_mascot.html",
@@ -19,7 +19,7 @@ const projects = [
     title: "교내 스포츠 대회 개선",
     cardImage: "assets/images/project-page/football.jpg",
     description: "\
-    매년 여름 개최되고 있는 교내 체육 대회는 시험이 끝난 후 우리를 즐겁게 해주는 좋은 행사입니다. 하지만 그럼에도 여러분들은 이에 대해 많은 아쉬움이 있으실 거라 생각합니다. 그래서 학생 여러분의 의견을 수렴해서 우리의 체육 대회를 더욱 즐겁게 하려고 합니다.",
+    매년 여름 개최되고 있는 교내 체육 대회에 여러분들도 즐거운 추억을 갖고 있으리라 생각합니다. 하지만 더 많은 학생들이 함께 즐길 수 있는 행사가 된다면 더욱 좋을 것입니다. 여러분의 의견을 모아 더욱 즐겁고 유익한 체육대회를 만들어 나가겠습니다.",
     tagimg: "https://pixabay.com/ko/photos/%EC%B6%95%EA%B5%AC-%EC%9E%94%EB%94%94-%EA%B3%B5-%ED%91%B8%EB%A5%B8-%EC%9E%94%EB%94%94-2778583/",
     minorities: "©pixabay.com",
     Previewlink: "assets/detailHTML/project_sports.html",
@@ -29,7 +29,7 @@ const projects = [
     title: "학생에 의한 학생회",
     cardImage: "assets/images/project-page/discussion.jpg",
     description: "\
-    우리 학교 학생회는 다른 학교에 비해 학생회 임원이 아닌 학생들의 소리를 듣기 어려운 구조라고 생각합니다. 학교-학생회-학생의 연결을 더욱 강화하여 학생들의 의견이 학사 운영에 더 중요하게 반영되게 하고 싶습니다.",
+    우리 학교 학생회는 별도의 창구가 없어 다른 학교에 비해 학생회 임원이 아닌 학생들의 소리를 듣기 어려운 구조라고 생각합니다. 학교, 학생회, 학생의 연결을 용이하게 하여 학생들의 의견이 학사 운영에 더 중요하게 반영될 수 있게 노력하겠습니다.",
     tagimg: "https://www.obrennanns.ie/extra-curricular/student-council/",
     minorities: "©O'Brennan Nat'l School",
     Previewlink: "assets/detailHTML/project_council.html",
@@ -39,7 +39,7 @@ const projects = [
     title: "타 학교와의 교류 증진",
     cardImage: "assets/images/project-page/school_fair.jpg",
     description: "\
-    우리도 학교 간 컨퍼런스나 자사고 문화학술교류제처럼 다른 학교와 교류를 많이 해보고 싶다는 생각을 해본 적이 있으신가요? 빠른 시일 내에 오프라인 행사 일정을 잡기는 어렵겠지만, 온라인으로 다른 학교와 소통할 수 있는 창구를 만들겠습니다.",
+    우리 대전과학고등학교도 '전국 국제고 연합학술제'나 '자사고 문화학술교류제'와 같은 타 학교와의 교류 행사가 많아진다면 다양하고 유익한 경험을 쌓을 수 있을 것입니다. 올해에 오프라인 일정을 잡기는 어렵겠지만, 온라인으로 다른 학교와 소통할 수 있는 창구를 만들겠습니다.",
     tagimg: "https://www.hutchins.tas.edu.au/news/the-hutchins-school-fair-2023/",    
     minorities: "©The Hutchins School",
     Previewlink: "assets/detailHTML/project_interact.html",

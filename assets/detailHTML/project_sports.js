@@ -9,7 +9,7 @@ const projects = [
     title: "e스포츠 대회 신설",
     cardImage: "../../assets/images/project-page/fifaScreenshot1.jpg",
     description: "\
-    많은 학생들이 교내 e스포츠 대회의 창설을 원하는 것으로 알고 있습니다. 제가 당선된다면 피파 모바일, 리그 오브 레전드 등 e스포츠 대회의 개최를 힘닿는 데까지 추진하겠습니다.",
+    많은 학생들이 교내 e스포츠 대회의 창설을 원하는 것으로 알고 있습니다. 제가 당선된다면 이에 부응해 피파 모바일, 리그 오브 레전드 등 e스포츠 대회의 개최를 추진하겠습니다.",
     tagimg: "https://rawg.io/games/fifa-mobile-soccer/screenshots",
     minorities: "©rawg.io",
     Previewlink: "",
@@ -19,7 +19,7 @@ const projects = [
     title: "교내 스포츠 대회 중계",
     cardImage: "../../assets/images/project-page/dshs_sasa.png",
     description: "\
-    학교에서 열리는 스포츠 경기들 중에 몇 개나 챙겨보셨나요? 다른 일정이 때문에 보지 못한 경기가 많으실 텐데, 올해부터는 녹화 방송을 유튜브 채널에 올려두겠습니다.",
+    다른 일정 때문에, 아니면 까먹어서 놓친 경기, 다시 보고 싶지 않나요? 이젠 모든 주요 경기들을 여명필름과 협의 후 녹화하여 유튜브에 업로드하도록 하겠습니다.",
     tagimg: "https://www.youtube.com/watch?v=W4j2eQKGots",
     minorities: "©여명필름 유튜브",
     Previewlink: "",
@@ -29,7 +29,7 @@ const projects = [
     title: "스포츠 리그 운영",
     cardImage: "../../assets/images/project-page/brentford.png",
     description: "\
-    운동하기에 충분한 사람이 모이지 않거나 자리가 없어서 운동을 하지 못한 경험이 있으신가요? 축구, 농구 리그를 (학업을 방해하지 않게 널럴한 일정으로) 운영하여 공평하게 운동할 수 있게 하겠습니다.",
+    운동하기에 충분한 사람이 모이지 않거나 자리가 없어서 운동을 하지 못한 경험이 있으신가요? 축구, 농구 리그를 학업을 방해하지 않게 널럴한 일정으로 운영하여 교내 스포츠 활동을 장려하겠습니다.",
     tagimg: "https://www.brentfordfc.com/en/news/article/first-team-brentford-premier-league-fixtures-2023-24-season",
     minorities: "©Brentford FC",
     Previewlink: "",

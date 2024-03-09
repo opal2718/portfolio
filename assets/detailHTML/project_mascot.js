@@ -9,7 +9,7 @@ const projects = [
     title: "우리만 마스코트 없어...",
     cardImage: "../../assets/images/project-page/doublemug3.jpg",
     description: "\
-    우리 학교를 대표하는 마스코트를 만들어 더욱 다니고 싶고 자랑하고픈 학교가 될 수 있도록 하겠습니다.",
+    우리 학교의 정체성을 드러내는 마스코트를 만들어 더욱 다니고 싶고, 자랑하고 싶은 학교가 될 수 있게 하겠습니다.",
     tagimg: "https://brandkaist.com/product/nubzuki-doublemug/",
     minorities: "©KAIST Brand Shop",
     Previewlink: "",
