@@ -164,7 +164,7 @@ let footer = $(`
               
                   <div id="main">
                     <button id="lnch" type="submit" value="Send">Send</button>
-                    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
+                    <div id="lnch_btn" style="pointer-events: none"><i class="fas fa-space-shuttle"></i></div>
                   </div>
                 </form>
               </div>
