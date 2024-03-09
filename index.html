@@ -169,12 +169,12 @@ document.querySelector("#foorm").addEventListener("submit", e=> {
       dataType: "xml",
       success: function(data) {
           console.log('Submission successful');
-          alert("전송 완료");
+          alert("전송 완료. 감사합니다.");
       },
       error: function(request, status, error) {
           console.log('Submission failed: ' + error);
           if(request.status != 200) alert("다시 시도해주세요.");
-          else alert("전송 완료");
+          else alert("전송 완료. 감사합니다.");
       }
   });
       document.querySelector("#foorm").reset();
