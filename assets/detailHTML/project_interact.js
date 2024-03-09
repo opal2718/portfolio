@@ -9,7 +9,7 @@ const projects = [
     title: "커뮤니티 운영",
     cardImage: "../../assets/images/project-page/conversation1.jpg",
     description: "\
-    전국의 영과고 학생들이 자유롭게 이용할 수 있는 온라인 커뮤니티를 운영하겠습니다. 서로의 고민과 자랑거리를 공유하며 공감할 수 있고, 학술적인 교류도 가능해질 것입니다.",
+    전국의 영과고 학생들이 자유롭게 이용할 수 있는 온라인 커뮤니티를 운영하겠습니다. 서로의 고민과 자랑거리를 공유하며 공감할 수 있고, 학술적인 교류도 더욱 편리해질 것입니다.",
     tagimg: "https://www.inc.com/anna-johansson/7-ways-to-start-a-conversation-that-leads-where-you-want-it-to.html",
     minorities: "©Inc. Magazine",
     Previewlink: "",
@@ -19,7 +19,7 @@ const projects = [
     title: "익명 상담소 운영",
     cardImage: "../../assets/images/project-page/counselor1.jpg",
     description: "\
-    남들에게 말하기 껄끄러운 고민이 하나 정도는 있으시리라 생각합니다. 앞서 언급한 커뮤니티에 익명 게시판 혹은 익명 일대일 채팅으로 서로의 고민을 들어줄 수 있는 기능을 추가하겠습니다.",
+    남들에게 말하기 껄끄러운 고민이 하나 쯤은 있으시리라 생각합니다. 앞서 언급한 커뮤니티에 익명 게시판 혹은 익명 일대일 채팅으로 서로의 고민을 들어줄 수 있는 기능을 추가하겠습니다.",
     tagimg: "https://www.betterhelp.com/advice/counseling/councilor-vs-counselor-there-is-a-difference/",
     minorities: "©Better Help",
     Previewlink: "",
