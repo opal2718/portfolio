@@ -2,7 +2,7 @@
 <html lang="en" light-mode="dark">
 
 <head>
-    <title>Sihoo Lee | About</title>
+    <title>기호 1번 | 이시후</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="free portfolio template,portfolio template, portfolio website template, open source, open sourcing, contributing to open source" />
@@ -15,15 +15,15 @@
     <meta name="AdsBot-Google" content="index,follow" />
 
     <meta property="og:site_name" content="https://portfolio.smaranjitghose.codes/education.html">
-    <meta property="og:title" content="Sihoo Lee | About">
+    <meta property="og:title" content="기호 1번 | 이시후">
     <meta property="og:description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://portfolio.smaranjitghose.codes/education.html">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://portfolio.smaranjitghose.codes/education.html">
 
-    <meta name="application-name" content="Sihoo Lee | About" />
-    <meta name="apple-mobile-web-app-title" content="Sihoo Lee | About" />
+    <meta name="application-name" content="기호 1번 | 이시후" />
+    <meta name="apple-mobile-web-app-title" content="기호 1번 | 이시후" />
     <meta name="summary" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
 
@@ -365,6 +365,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="./assets/js/aboutme.js"></script>
+    
+    <script>
+        function sleep(sec) {
+            return new Promise(resolve => setTimeout(resolve, sec * 1000));
+        } // 함수정의
+        (async()=>{
+            while(document.querySelector("#foorm") == null){
+                await sleep(0.001);
+            }
+            
+document.querySelector("#foorm").addEventListener("submit", e=> {
+  e.preventDefault();
+  $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec",
+      data: {"data": document.querySelector("#data").value},
+      type: "POST",
+      dataType: "xml",
+      success: function(data) {
+          console.log('Submission successful');
+          alert("전송 완료");
+      },
+      error: function(request, status, error) {
+          console.log('Submission failed: ' + error);
+          if(request.status != 200) alert("다시 시도해주세요.");
+          else alert("전송 완료");
+      }
+  });
+      document.querySelector("#foorm").reset();
+});
+        })();
+    </script>
 </body>
 
 </html>

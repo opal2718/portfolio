@@ -2,7 +2,7 @@
 <html lang="ko" light-mode="light">
 
 <head>
-    <title>이시후 | 홈</title>
+    <title>기호 1번 | 이시후</title>
     <meta charset="UTF-8">
     <meta name="google" content="notranslate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,14 @@
     <meta name="Googlebot" content="index,follow" />
     <meta name="AdsBot-Google" content="index,follow" />
     <meta property="og:site_name" content="https://portfolio.smaranjitghose.codes/">
-    <meta property="og:title" content="이시후 | 홈">
+    <meta property="og:title" content="기호 1번 | 이시후">
     <meta property="og:description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://portfolio.smaranjitghose.codes/">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://portfolio.smaranjitghose.codes/">
-    <meta name="application-name" content="이시후 | 홈" />
-    <meta name="apple-mobile-web-app-title" content="이시후 | 홈" />
+    <meta name="application-name" content="기호 1번 | 이시후" />
+    <meta name="apple-mobile-web-app-title" content="기호 1번 | 이시후" />
     <meta name="summary" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
     <!--For Dark/Light mode Toggle-->
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
@@ -69,8 +69,8 @@
     </div>
     <center>
         <!-- Home Section -->
-        <div class="text col-sm-6" style="margin-top: 140px;">전교 부회장 기호 1번, <span class="wave"></span><span class="header">이시후입니다.</span><img src="assets/images/Hand.gif" width="35px">
-            <br>
+        <div class="text col-sm-6" style="margin-top: 140px;">전교 부회장 기호 <span class="header">1</span>번, <br><span class="wave"></span><span class="header">이시후</span>입니다.<img src="assets/images/Hand.gif" width="35px">
+            <br><br>
             <div class="center">
                 <div>
                     <img src="assets/images/OfficialPortrait.jpg" alt="" class="rounded-circle" height="200" width="200">
@@ -78,9 +78,11 @@
                 <br/>
                 <span style="display: inline;">공약<span class="animated-text"
                     data-words=
-                    "1: 학교 마스코트 제작하기, 2: 교내 스포츠 대회 활성화하기, 3: 주말 아침 점호 제거하기, 4: 학생 의견 적극적으로 반영하기, 5: 타학교와 교류 증진하기, 6: 공용 충전기 비치하기, 7: 기숙사 상점 늘리기, 8: 시청각실 옆 화이트보드 활성화하기">
+                    " 목록, 에 대한 더 자세한 사항은 Pledges 탭을 확인해주세요., 1: 학교 마스코트 제작하기, 2: 교내 스포츠 대회 개선하기, 3: 학생에 의한 학생회 구축하기, 4: 타 학교와의 교류 증진하기">
                 </span>
                 </span>
+                <br><br>
+                <p><a href="projects.html" style="text-decoration-line:none; color:rgb(63, 25, 170)">>> 공약 목록 바로가기 <<</a></p>
                 <div><!--
                     <div class="social-icons">
 
@@ -169,9 +171,10 @@ document.querySelector("#foorm").addEventListener("submit", e=> {
           console.log('Submission successful');
           alert("전송 완료");
       },
-      error: function(xhr, status, error) {
+      error: function(request, status, error) {
           console.log('Submission failed: ' + error);
-          alert("다시 시도해주세요.");
+          if(request.status != 200) alert("다시 시도해주세요.");
+          else alert("전송 완료");
       }
   });
       document.querySelector("#foorm").reset();
