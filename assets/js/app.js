@@ -50,7 +50,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>-->
    <li class="nav-item nav-item-hover"><a class="nav-link" href="aboutme.html">About</a></li>
    <li class="nav-item">
-   <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
+   <!--<input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>-->
    </li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
@@ -157,7 +157,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header" style="height:100%; margin-bottom:10%">
-              <h6 class="display">Get in Touch</h6>
+              <h6 class="display"></h6>
               </div>
                 <form id="foorm" style="height:90%" name="form1" action="https://script.google.com/macros/s/AKfycbx0pSp3h-lN5UxbxNTnvxty_ZeQkYOqY7yQQke5snqOB-rLX6hTRUK3reT2CipnbMRz/exec" method="POST" accept-charset="UTF-8" >             
                   <textarea style="font-family: "HangulLight";" class="formArea" onInput="this.parentNode.dataset.replicatedValue = this.value" id="data" name="data" placeholder="이곳에 입력 후 Send Button을 클릭하시면 전송이 완료됩니다." required style="resize:none"></textarea>
