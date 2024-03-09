@@ -11,10 +11,10 @@ window.onload = function () {
   function toggle(isPageActive) {
     if (isPageActive) {
       document.title = pageTitle
-      favicon.href = './assets/images/favicon-32x32.png'
+      favicon.href = "../../assets/images/favicon.png"
     } else {
       document.title = attentionMessage
-      favicon.href = './assets/images/favicon-32x32.png'
+      favicon.href = '../../assets/images/favicon.png'
     }
   }
 }
