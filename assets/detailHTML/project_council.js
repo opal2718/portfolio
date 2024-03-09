@@ -40,13 +40,16 @@ const showCards = () => {
               <div class="content">
               <div class="title-div" style="padding-bottom:0rem;">
                 <h1 class="title" style="padding-bottom:0rem;">${title}</h1>
-                <p style="
+                <p class="noscroll" style="
                   font-size: 20px; 
                   display: -webkit-box;
                   -webkit-box-orient: vertical;
                   -webkit-line-clamp: 4;
-                  overflow: hidden;
+                  overflow: auto;
+                  text-overflow: ellipsis;
                   margin-bottom: 4rem;
+                  scrollbar-width: none;
+                  font-family: 'noEllipsis','HangulLighter';
                 ">${description}</p>
                 <p style="font-size: 15px;position: absolute; bottom:0px;"><a href="${tagimg}" style=" color:white; text-decoration:none" target="_blank" title="출처">${minorities}</a></p>
                 </div>
