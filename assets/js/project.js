@@ -31,7 +31,7 @@ const projects = [
     description: "\
     우리 학교 학생회는 다른 학교에 비해 학생회 임원이 아닌 학생들의 소리를 듣기 어려운 구조라고 생각합니다. 학교-학생회-학생의 연결을 더욱 강화하여 학생들의 의견이 학사 운영에 더 중요하게 반영되게 하고 싶습니다.",
     tagimg: "https://www.obrennanns.ie/extra-curricular/student-council/",
-    minorities: "©O'Brennan National School",
+    minorities: "©O'Brennan Nat'l School",
     Previewlink: "assets/detailHTML/project_council.html",
     Githublink: "",
   },
