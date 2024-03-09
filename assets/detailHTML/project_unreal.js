@@ -5,36 +5,6 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  {
-    title: "기숙사 상점 늘리기",
-    cardImage: "../../assets/images/project-page/well_done.jpg",
-    description: "\
-    올해 규정이 바뀌어 학교 선생님들은 상점을 주실 수 없게 되었는데, 기숙사에서 줄 수 있는 상점은 매우 적기에 봉사 상점을 추가하는 등 학교와 협의하여 상점 제도 확장을 알아보려 합니다.",
-    tagimg: "https://www.waldenu.edu/online-bachelors-programs/bs-in-elementary-education/resource/what-every-school-teacher-should-know-about-giving-praise",
-    minorities: "©Walden Univ.",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "주말 아침 점호 제거",
-    cardImage: "../../assets/images/project-page/military.jpg",
-    description: "\
-    가뜩이나 일어나기도 싫은 주말에 기숙사, 일신관에서 두 번이나 하는 점호, 너무 힘들지 않나요? 두 번의 연속된 점호는 실효성도 낮기에 이에 대해서도 논의해보려 합니다.",
-    tagimg: "https://www.cju.ac.kr/ms/selectBbsNttView.do?bbsNo=374&nttNo=76777&&pageUnit=10&key=2277&pageIndex=1",
-    minorities: "©청주대학교 군사학과",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "학교 공연에 가수 초청",
-    cardImage: "../../assets/images/project-page/aquarium.jpg",
-    description: "\
-    우리끼리만 하는 축제보다는 외부 인사를 불러오는 편이 더 재미있겠죠? 학교 예산만 충분하다면 타협할 수 있는 선에서 가수를 초청하고자 노력하겠습니다.",
-    tagimg: "https://v.daum.net/v/20180724114752511",
-    minorities: "©엑스포츠 뉴스",
-    Previewlink: "",
-    Githublink: "",
-  },
 ];
 
 // function for rendering project cards data

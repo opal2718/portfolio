@@ -46,12 +46,12 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "조금은 비현실적인 것들",
-    cardImage: "assets/images/project-page/aquarium.jpg",
+    title: "기숙사 상점 늘리기",
+    cardImage: "assets/images/project-page/dom1.jpg",
     description:
-      "생각 중이긴 하지만 현실적으로 가능할지는 조금 더 알아봐야 하는 문제들입니다. 만약 제가 당선된다면, 이 내용들에 대해서도 최선을 다하겠습니다.",
-    tagimg: "https://v.daum.net/v/20180724114752511",
-    minorities: "©엑스포츠 뉴스",
+      "올해 규정이 바뀌어 학교 선생님들은 상점을 주실 수 없게 되었는데, 기숙사에서 줄 수 있는 상점은 매우 적기에 봉사 상점을 추가하는 등 학교와 협의하여 상점 제도 확장을 알아보려 합니다.",
+    tagimg: "",
+    minorities: "©여명관 B동 312호",
     Previewlink: "assets/detailHTML/project_unreal.html",
     Githublink: "",
   },
