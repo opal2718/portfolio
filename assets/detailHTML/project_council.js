@@ -9,7 +9,7 @@ const projects = [
     title: "온라인 건의함 개설",
     cardImage: "../../assets/images/project-page/suggestionBox.jpg",
     description: "\
-    학생들이 학교 운영에 대해 보다 직접적인 목소리를 낼 수 있도록, 익명성이 보장된 온라인 건의함을 개설하도록 하겠습니다.",
+    학생들이 학교 운영에 대해 보다 직접적인 목소리를 낼 수 있도록, 익명성이 보장된 온라인 건의함을 개설하도록 하겠습니다. 또, 과거 운영되었던 '대전과학고 대신 전해드립니다'와 유사한 계정을 만들어 운영하려고 합니다.",
     tagimg: "https://www.phob.co.kr/goods/view.php?goodsno=18068654",
     minorities: "©라이프스토리 포비",
     Previewlink: "",
