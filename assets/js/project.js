@@ -59,7 +59,7 @@ const projects = [
     title: "자잘한 아이디어",
     cardImage: "assets/images/project-page/charging.jpg",
     description:
-      "대표적인 공약으로 내세우기에는 조금 사소하지만 실행된다면 우리의 학교 생활을 편하게 해줄 작은 생각들입니다.",
+      "대표적인 공약으로 내세우기에는 조금 사소하지만 실행된다면 우리의 학교생활을 편하게 해줄 작은 생각들입니다.",
     tagimg: "https://www.anker.com/blogs/chargers/is-it-bad-to-leave-a-laptop-charger-plugged-in",
     minorities: "©Anker.com",
     Previewlink: "assets/detailHTML/project_smaller.html",
