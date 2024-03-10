@@ -19,7 +19,7 @@ const projects = [
     title: "학생 전체 회의 개최",
     cardImage: "../../assets/images/project-page/uncouncil.jpg",
     description: "\
-    일년에 한두 번, 학생자치회와 각 학급의 임원들 뿐 아니라 참가를 희망하는 학생들이 자유롭게 참여할 수 있는 회의의 장을 만들겠습니다. 이곳에서 선생님들과 학생들이 자유롭고 효율적으로 의견을 모으고 서로의 목소리에 귀를 기울일 수 있을 것입니다.",
+    일년에 한두 번, 학생자치회와 각 학급의 임원들 뿐 아니라 참가를 희망하는 학생들이 자유롭게 참여할 수 있는 회의의 장을 만들겠습니다. 선생님들과 학생들이 자유롭게 의견을 나누고 서로의 목소리를 들을 수 있을 것입니다.",
     tagimg: "https://betterworldcampaign.org/blog/un-security-council-veto",
     minorities: "©Better World Campaign",
     Previewlink: "",
