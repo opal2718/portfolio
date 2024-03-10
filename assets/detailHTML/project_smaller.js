@@ -19,7 +19,7 @@ const projects = [
     title: "화이트보드 활성화",
     cardImage: "../../assets/images/project-page/whiteboard1.jpg",
     description: "\
-    시청각실 벽에 있는 화이트보드가 아무 쓰임 없이 방치되고 있는 것이 아쉬웠습니다. 학생의 의견을 수렴해 화이트보드에게 적절한 용도를 부여해 주고자 합니다.",
+    일신관 1층에 있는 화이트보드가 아무 쓰임 없이 방치되고 있는 것이 아쉬웠습니다. 학생의 의견을 수렴해 화이트보드에게 적절한 용도를 부여해 주고자 합니다.",
     tagimg: "https://spectrum.ieee.org/the-new-brain-behind-the-whiteboardsand-morefor-hbos-silicon-valley",
     minorities: "©IEEE Spectrum",
     Previewlink: "",
