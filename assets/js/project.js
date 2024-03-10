@@ -9,7 +9,7 @@ const projects = [
     title: "학교 마스코트 제작",
     cardImage: "assets/images/project-page/doublemug3.jpg",
     description: 
-      "우리 학교의 마스코트가 없다는 것이 아쉽지 않나요? 우리만의 귀여운 마스코트가 만들어진다면 과제로 제출할 PPT에 넣어 꾸밀 수도 있고, 굿즈도 만들어서 갖고 다니면서 학교를 더욱 사랑하고 널리 홍보할 수 있을 것입니다.",
+      "우리 학교의 마스코트가 없다는 것이 아쉽지 않으신가요? 우리만의 귀여운 마스코트가 만들어진다면 과제로 제출할 PPT에 넣어 꾸밀 수도 있고, 굿즈도 만들어서 갖고 다니면서 학교를 더욱 사랑하고 널리 홍보할 수 있을 것입니다.",
     minorities: "©KAIST Brand Shop",
     tagimg: "https://brandkaist.com/product/nubzuki-doublemug/",
     Previewlink: "assets/detailHTML/project_mascot.html",

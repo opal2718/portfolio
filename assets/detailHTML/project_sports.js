@@ -19,7 +19,7 @@ const projects = [
     title: "교내 체육 대회 중계",
     cardImage: "../../assets/images/project-page/dshs_sasa.png",
     description: "\
-    다른 일정 때문에, 아니면 까먹어서 놓친 경기, 다시 보고 싶지 않나요? 이젠 모든 주요 경기들을 여명필름과 협의 후 녹화하여 유튜브에 업로드하도록 하겠습니다.",
+    다른 일정 때문에, 아니면 까먹어서 놓친 경기, 다시 보고 싶지 않으신가요? 이젠 모든 주요 경기들을 여명필름과 협의 후 녹화하여 유튜브에 업로드하도록 하겠습니다.",
     tagimg: "https://www.youtube.com/watch?v=W4j2eQKGots",
     minorities: "©여명필름 유튜브",
     Previewlink: "",
