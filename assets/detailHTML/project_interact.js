@@ -19,7 +19,7 @@ const projects = [
     title: "익명 상담소 운영",
     cardImage: "../../assets/images/project-page/counselor1.jpg",
     description: "\
-    남들에게 말하기 껄끄러운 고민이 하나 쯤은 있으시리라 생각합니다. 앞서 언급한 커뮤니티에 익명 게시판 혹은 익명 일대일 채팅으로 서로의 고민을 들어줄 수 있는 기능을 추가하겠습니다.",
+    남들에게 말하기 껄끄러운 고민이 하나쯤은 있으시리라 생각합니다. 앞서 언급한 커뮤니티에 익명 게시판 혹은 익명 일대일 채팅으로 서로의 고민을 들어줄 수 있는 기능을 추가하겠습니다.",
     tagimg: "https://www.betterhelp.com/advice/counseling/councilor-vs-counselor-there-is-a-difference/",
     minorities: "©Better Help",
     Previewlink: "",
