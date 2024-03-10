@@ -29,7 +29,7 @@ const projects = [
     title: "스포츠 리그 운영",
     cardImage: "../../assets/images/project-page/brentford.png",
     description: "\
-    운동하기에 충분한 사람이 모이지 않거나 자리가 없어서 운동을 하지 못한 경험이 있으신가요? 축구, 농구 리그를 학업을 방해하지 않게 널럴한 일정으로 운영하여 교내 스포츠 활동을 장려하겠습니다.",
+    운동하기에 충분한 사람이 모이지 않거나 자리가 없어서 운동을 하지 못한 경험이 있으신가요? 축구, 농구 리그를 학업을 방해하지 않게 여유 있는 일정으로 운영하여 교내 스포츠 활동을 장려하겠습니다.",
     tagimg: "https://www.brentfordfc.com/en/news/article/first-team-brentford-premier-league-fixtures-2023-24-season",
     minorities: "©Brentford FC",
     Previewlink: "",
