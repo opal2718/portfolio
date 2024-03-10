@@ -16,10 +16,10 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "교내 스포츠 대회 개선",
+    title: "교내 체육 대회 개선",
     cardImage: "assets/images/project-page/football.jpg",
     description: "\
-    매년 여름 개최되고 있는 교내 체육 대회에 여러분들도 즐거운 추억을 갖고 있으리라 생각합니다. 하지만 더 많은 학생들이 함께 즐길 수 있는 행사가 된다면 더욱 좋을 것입니다. 여러분의 의견을 모아 더욱 즐겁고 유익한 체육대회를 만들어 나가겠습니다.",
+    매년 여름 개최되는 교내 체육 대회에 여러분들도 즐거운 추억을 갖고 있으리라 생각합니다. 하지만 더 많은 학생들이 함께 즐길 수 있는 행사가 된다면 더욱 좋을 것입니다. 여러분의 의견을 모아 더욱 즐겁고 유익한 체육대회를 만들어 나가겠습니다.",
     tagimg: "https://pixabay.com/ko/photos/%EC%B6%95%EA%B5%AC-%EC%9E%94%EB%94%94-%EA%B3%B5-%ED%91%B8%EB%A5%B8-%EC%9E%94%EB%94%94-2778583/",
     minorities: "©pixabay.com",
     Previewlink: "assets/detailHTML/project_sports.html",
